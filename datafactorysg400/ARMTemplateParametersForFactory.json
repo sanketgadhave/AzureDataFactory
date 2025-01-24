@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactorysg400"
+		},
+		"datalakeoutsidesg_accountKey": {
+			"value": ""
+		},
+		"Synapse_Activity_Pool_password": {
+			"value": ""
+		},
+		"datalakeoutsidesg_properties_typeProperties_url": {
+			"value": "https://datalakeoutsidesg.dfs.core.windows.net/"
+		},
+		"Synapse_Activity_Pool_properties_typeProperties_server": {
+			"value": "dataworkspace50000.sql.azuresynapse.net"
+		},
+		"Synapse_Activity_Pool_properties_typeProperties_database": {
+			"value": "datapool"
+		},
+		"Synapse_Activity_Pool_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		}
+	}
+}
