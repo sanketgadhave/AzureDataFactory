@@ -7,17 +7,13 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "datafactorysg400"
 		},
-		"datalakeoutsidesg_accountKey": {
-			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'datalakeoutsidesg'"
-		},
 		"Synapse_Activity_Pool_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'Synapse_Activity_Pool'"
 		},
-		"datalakeoutsidesg_properties_typeProperties_url": {
-			"type": "string",
-			"defaultValue": "https://datalakeoutsidesg.dfs.core.windows.net/"
+		"datalakeoutsidesg_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'datalakeoutsidesg'"
 		},
 		"Synapse_Activity_Pool_properties_typeProperties_server": {
 			"type": "string",
@@ -30,6 +26,10 @@
 		"Synapse_Activity_Pool_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "sqladminuser"
+		},
+		"datalakeoutsidesg_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://datalakeoutsidesg.dfs.core.windows.net/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -58,14 +58,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"datalakeoutsidesg_accountKey": {
-						"value": "[parameters('datalakeoutsidesg_accountKey')]"
-					},
 					"Synapse_Activity_Pool_password": {
 						"value": "[parameters('Synapse_Activity_Pool_password')]"
 					},
-					"datalakeoutsidesg_properties_typeProperties_url": {
-						"value": "[parameters('datalakeoutsidesg_properties_typeProperties_url')]"
+					"datalakeoutsidesg_accountKey": {
+						"value": "[parameters('datalakeoutsidesg_accountKey')]"
 					},
 					"Synapse_Activity_Pool_properties_typeProperties_server": {
 						"value": "[parameters('Synapse_Activity_Pool_properties_typeProperties_server')]"
@@ -75,6 +72,9 @@
 					},
 					"Synapse_Activity_Pool_properties_typeProperties_userName": {
 						"value": "[parameters('Synapse_Activity_Pool_properties_typeProperties_userName')]"
+					},
+					"datalakeoutsidesg_properties_typeProperties_url": {
+						"value": "[parameters('datalakeoutsidesg_properties_typeProperties_url')]"
 					}
 				}
 			},

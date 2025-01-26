@@ -5,14 +5,11 @@
 		"factoryName": {
 			"value": "datafactorysg400"
 		},
-		"datalakeoutsidesg_accountKey": {
-			"value": ""
-		},
 		"Synapse_Activity_Pool_password": {
 			"value": ""
 		},
-		"datalakeoutsidesg_properties_typeProperties_url": {
-			"value": "https://datalakeoutsidesg.dfs.core.windows.net/"
+		"datalakeoutsidesg_accountKey": {
+			"value": ""
 		},
 		"Synapse_Activity_Pool_properties_typeProperties_server": {
 			"value": "dataworkspace50000.sql.azuresynapse.net"
@@ -22,6 +19,9 @@
 		},
 		"Synapse_Activity_Pool_properties_typeProperties_userName": {
 			"value": "sqladminuser"
+		},
+		"datalakeoutsidesg_properties_typeProperties_url": {
+			"value": "https://datalakeoutsidesg.dfs.core.windows.net/"
 		}
 	}
 }
